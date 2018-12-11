@@ -33,7 +33,7 @@ class Search extends Component {
             return (
                 <div className="card card-body mb-4 p-4">
                     <h1 className="display-4 text-center">
-                        <i className="fas fa-music"></i>{'  '}Search For A Song
+                        <i className="fas fa-search"></i>{'  '}Search For A Song
                     </h1>
                     <p className="lead text-center">
                         Get The Lyrics For The Song
@@ -49,7 +49,7 @@ class Search extends Component {
                             onChange={this.onChange}
                             />
                         </div>
-                        <button className="btn btn-primary btn-lg btn-block mb-5" type='submit'>
+                        <button className="btn btn-dark btn-lg btn-block mb-5" type='submit'>
                             Get Track Lyrics
                         </button>
                     </form>

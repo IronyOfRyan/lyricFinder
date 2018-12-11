@@ -4,3 +4,29 @@ html {
     -ms-user-select: none;      /* IE 10+ */
     user-select: none;          /* Likely future */      
   }
+
+  ::-webkit-input-placeholder {
+    text-align: center;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+ }
+
+ .card-body {
+   color:black;
+   background-color: blue;
+ }
+
+ .btn-dark {
+    color:black;
+    background-color: red;
+ }
